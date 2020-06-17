@@ -9,8 +9,8 @@ int minimumNumber(int n, string password) {
     bool a = false,b = false,c =false,d =false;
     for(int x = 0; x < password.length(); x++)
     {
-        if(((password.at(x) >= '!' && password.at(x) <= '+') || 
-        password.at(x) == '-' || password.at(x) == '@') && !a)
+        if(((password.at(x) >= '!' && password.at(x) <= '-') || 
+        password.at(x) == '^' || password.at(x) == '@') && !a)
         {
             count++;
             a = true;
