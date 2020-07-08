@@ -1,7 +1,5 @@
 #include <bits/stdc++.h>
 
-using namespace std;
-
 // Complete the hackerrankInString function below.
 string hackerrankInString(string s) {
     bool h = true, a1 = false, c = false, k1 = false, e = false, r1 = false,
